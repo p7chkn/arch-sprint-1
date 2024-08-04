@@ -33,7 +33,6 @@ module.exports = {
       name: "profileApp",
       filename: "remoteEntry.js",
       exposes: {
-        "./Button": "./src/components/Button",
         "./Profile": "./src/components/Profile",
         "./EditAvatarPopup": "./src/components/EditAvatarPopup",
         "./EditProfilePopup": "./src/components/EditProfilePopup",

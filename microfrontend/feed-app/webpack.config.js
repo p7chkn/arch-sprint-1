@@ -30,13 +30,12 @@ module.exports = {
   },
   plugins: [
     new ModuleFederationPlugin({
-      name: "profileApp",
+      name: "feedApp",
       filename: "remoteEntry.js",
       exposes: {
-        "./Button": "./src/components/Button",
-        "./Profile": "./src/components/Profile",
-        "./EditAvatarPopup": "./src/components/EditAvatarPopup",
-        "./EditProfilePopup": "./src/components/EditProfilePopup",
+        "./Card": "./src/components/Card",
+        "./ImagePopUp": "./src/components/ImagePopUp",
+        "./AddPlacePopup": "./src/components/AddPlacePopup",
       },
       shared: { react: { singleton: true }, "react-dom": { singleton: true } },
     }),

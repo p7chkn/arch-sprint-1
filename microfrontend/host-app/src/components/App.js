@@ -16,10 +16,7 @@ import Login from "./Login";
 import InfoTooltip from "./InfoTooltip";
 import ProtectedRoute from "./ProtectedRoute";
 import * as auth from "../utils/auth.js";
-const Button = lazy(() => import('profileApp/Button'));
 const Profile = lazy(() => import('profileApp/Profile'));
-const EditAvatarPopup_ = lazy(() => import('profileApp/EditAvatarPopup'));
-const EditProfilePopup_ = lazy(() => import('profileApp/EditProfilePopup'));
 
 function App() {
   const [isEditProfilePopupOpen, setIsEditProfilePopupOpen] = useState(false);

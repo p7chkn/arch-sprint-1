@@ -33,10 +33,8 @@ module.exports = {
       name: "profileApp",
       filename: "remoteEntry.js",
       exposes: {
-        "./Button": "./src/components/Button",
-        "./Profile": "./src/components/Profile",
-        "./EditAvatarPopup": "./src/components/EditAvatarPopup",
-        "./EditProfilePopup": "./src/components/EditProfilePopup",
+        "./Login": "./src/components/Login",
+        "./Register": "./src/components/Register",
       },
       shared: { react: { singleton: true }, "react-dom": { singleton: true } },
     }),

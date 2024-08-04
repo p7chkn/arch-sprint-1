@@ -1,11 +1,11 @@
 // button-app/src/index.js
 import React from "react";
 import ReactDOM from "react-dom";
-import Profile from "./components/Profile";
+import Card from "./components/Card";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Profile />
+    <Card />
   </React.StrictMode>,
   document.getElementById("root"),
 );
